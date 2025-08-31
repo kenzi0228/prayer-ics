@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/prayers.ics.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
