@@ -1,7 +1,8 @@
 {
-  "functions": {
-    "api/**/*.js": { "runtime": "nodejs20.x" },
-    "api/**/*.mjs": { "runtime": "nodejs20.x" }
-  }
+  "functions": { "api/**/*.js": { "runtime": "nodejs20.x" } },
+  "routes": [
+    { "src": "/api/prayers\\.ics", "dest": "/api/prayers" }
+  ]
 }
+
 
